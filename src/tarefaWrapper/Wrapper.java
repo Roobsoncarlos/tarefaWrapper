@@ -6,11 +6,13 @@ public class Wrapper {
 		
 		//Boxing
 		
-		Integer i = 20;
-		System.out.println(i);
+		int idade = 20;
+		Integer novaIdade = Integer.valueOf(idade);
+		System.out.println(novaIdade);
 		
-		Long l = Long.valueOf(30);
-		System.out.println(l);
+		long codigo = 5050117l;
+		Long novoCodigo = Long.valueOf(codigo);
+		System.out.println(novoCodigo);
 		
 		//Casting Implicitp
 		
@@ -18,4 +20,5 @@ public class Wrapper {
 		double d = b;
 		System.out.println(b);
 	}	
+
 }
